@@ -29,6 +29,8 @@ runtime search.vundle
 runtime project.vundle
 runtime vim-improvements.vundle
 
+" All your bundles here
+Bundle "kien/rainbow_parentheses.vim"
 " The plugins listed in ~/.vim/.vundles.local will be added here to
 " allow the user to add vim plugins to yadr without the need for a fork.
 if filereadable(expand("~/.yadr/vim/.vundles.local"))
